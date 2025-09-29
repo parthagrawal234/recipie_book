@@ -1,0 +1,26 @@
+{
+  "name": "web-exp",
+  "version": "1.0.0",
+  "main": "netlify/functions/api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npx tailwindcss -i ./public/stylesheets/input.css -o ./public/stylesheets/output.css --watch\" \"nodemon index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "concurrently": "^9.2.1",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "serverless-http": "^4.0.0",
+    "tailwindcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6"
+  }
+}

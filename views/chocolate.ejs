@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheets/output.css" rel="stylesheet">
+    <title>My Recipe Book</title>
+</head>
+<body class="bg-rose-100">
+    <header class="bg-rose-500 shadow-md w-full">
+    <div class="flex justify-between items-center py-4 px-6">
+    <div class="flex items-center space-x-2">
+      <img src="images/logo.jpg" alt="Logo" class="w-12 h-12 object-cover">
+      <span class="text-xl font-bold text-gray-900">My Recipe Book</span>
+    </div>
+    <div class="flex space-x-6">
+      <!-- Menu Links -->
+      <a href="#" class="text-gray-900 font-semibold hover:text-rose-500">Home</a>
+      <a href="#" class="text-gray-900 font-semibold hover:text-rose-500">Recipes</a>
+    </div>
+    </div>
+  </header>
+<div class="mt-12"></div> <!-- replaces multiple <br> with proper spacing -->
+
+<div class="text-center">
+    <h1 class="text-5xl font-bold text-indigo-700 drop-shadow-md">
+      My Recipe Book
+    </h1>
+  </div>
+<div class="mt-12"></div> <!-- replaces multiple <br> with proper spacing -->
+<main class="p-8">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Recipe Card 1 -->
+    <div class="bg-white rounded-lg overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl">
+        <div class="w-full aspect-[4/3] overflow-hidden">
+            <img src="images/photo-1600147566401-c2056eb69479.jpg" class="w-full h-full object-cover">
+        </div>
+
+      <div class="p-4">
+        <h2 class="text-xl font-semibold text-gray-800">Special Chocolate Chip Cookie</h2>
+        <p class="text-gray-600 text-sm mt-1">Bake at 350 degree celcius and crunchy and melty flavour will come alive.</p>
+      </div>
+    </div>
+</main>
+<div class="mt-12 bg-rose-100 text-center px-6 py-8">
+  <p class="text-gray-700 text-lg max-w-2xl mx-auto">
+    This recipe book looks so good, it just needs a little /chocolate 🍫
+  </p>
+</div>
+</body>
+</html>
