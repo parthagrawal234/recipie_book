@@ -4,9 +4,7 @@
   "main": "netlify/functions/api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "netlify dev",
-    "build": "echo 'No build step required'",
-    "start": "node netlify/functions/api.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
